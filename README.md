@@ -35,13 +35,8 @@
    python dataset_preparation/convert_visa_to_mvtec.py
    ```
 
-
-
-```
-
 ## Acknowledgement
 We thank the great works [InCTRL](https://github.com/mala-lab/InCTRL), [ResAD](https://github.com/xcyao00/ResAD), [AnomalyDINO](https://github.com/dammsi/AnomalyDINO), [AnomalyCLIP](https://github.com/zqhang/AnomalyCLIP), and [WinCLIP](https://github.com/zqhang/Accurate-WinCLIP-pytorch) for assisting with our work.
 
 ## License
 The code and dataset in this repository are licensed under the [MIT license](https://mit-license.org/).
-```
