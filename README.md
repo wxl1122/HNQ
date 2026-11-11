@@ -7,15 +7,6 @@ HNQ learns residual proxies from query-minus-normal features (RFL), translates
 them into normal appearance proxies (NLS), and hunts normality to score query
 images and localize anomalies. The visual encoder is frozen.
 
-This source-only release includes the current shared DINOv2-B/14-register
-configuration. Two RFL/NLS heads share one frozen encoder: a compatibility head
-provides localization and an image score, and a normality-supervised head
-contributes a second image score. This is an enhanced implementation, not an
-unchanged or compute-matched reproduction of the original ViT-S model.
-
-**No weights, datasets, measured results, experiment logs or paper files are
-included.** Train the heads before evaluation; the commands below create local
-artifacts that are ignored by Git. There is no implied checkpoint download.
 
 ## Layout
 
