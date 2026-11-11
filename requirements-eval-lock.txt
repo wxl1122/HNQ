@@ -1,0 +1,11 @@
+# Core run.py runtime used for the recorded evaluations (Python 3.10.4).
+# CUDA-enabled torch 2.8.0 build reported CUDA runtime 12.8.
+# Optional VisA metadata generation requires pandas (requirements.txt).
+torch==2.8.0
+torchvision==0.23.0
+timm==0.6.12
+einops==0.8.1
+numpy==2.2.6
+scipy==1.14.1
+scikit-learn==1.5.2
+Pillow==11.0.0
